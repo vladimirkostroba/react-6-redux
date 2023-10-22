@@ -1,8 +1,14 @@
 import React from "react";
+import Layout from "./Layout/Layout";
+import AppBar from "./AppBar/AppBar";
+import Form from "./Form/Form";
 
 const App = () => {
      return(
-        <div>kjdnfkj</div>
+        <Layout>
+         <AppBar/>
+         <Form/>
+        </Layout>  
      )
 }
 
